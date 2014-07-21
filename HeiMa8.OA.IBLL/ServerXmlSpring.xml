@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+	<object name="ActionInfoBLL" type="HeiMa8.OA.BLL.ActionInfoBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="FileInfoBLL" type="HeiMa8.OA.BLL.FileInfoBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="OrderInfoBLL" type="HeiMa8.OA.BLL.OrderInfoBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="R_UserInfo_ActionInfoBLL" type="HeiMa8.OA.BLL.R_UserInfo_ActionInfoBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="RoleInfoBLL" type="HeiMa8.OA.BLL.RoleInfoBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="UserInfoBLL" type="HeiMa8.OA.BLL.UserInfoBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="UserInfoExtBLL" type="HeiMa8.OA.BLL.UserInfoExtBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="WF_InstanceBLL" type="HeiMa8.OA.BLL.WF_InstanceBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="WF_StepBLL" type="HeiMa8.OA.BLL.WF_StepBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+	<object name="WF_TempBLL" type="HeiMa8.OA.BLL.WF_TempBLL, HeiMa8.OA.BLL" singleton="false" >
+  </object>
+</objects>

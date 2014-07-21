@@ -1,0 +1,764 @@
+2013-10-21 21:54:17,808 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:54:17,835 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.100:11211 -- only 0 created
+2013-10-21 21:54:18,836 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:54:18,836 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.2:11211 -- only 0 created
+2013-10-21 21:54:19,856 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:54:20,900 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:54:21,918 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:55:06,966 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:55:07,968 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:55:08,977 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:55:10,041 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:55:11,041 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:56:49,455 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:56:49,473 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.100:11211 -- only 0 created
+2013-10-21 21:56:50,485 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:56:50,485 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.2:11211 -- only 0 created
+2013-10-21 21:56:51,511 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:56:52,513 [7] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:56:53,580 [22] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:56:54,591 [22] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:58:29,816 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:58:29,831 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.100:11211 -- only 0 created
+2013-10-21 21:58:31,094 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:58:31,095 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.2:11211 -- only 0 created
+2013-10-21 21:58:32,188 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:58:33,216 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:58:59,691 [6] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 21:59:06,538 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:11:34,251 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:11:34,266 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.100:11211 -- only 0 created
+2013-10-21 22:11:35,330 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:11:35,331 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.2:11211 -- only 0 created
+2013-10-21 22:11:36,406 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:12:40,239 [9] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:12:41,240 [9] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:12:42,287 [9] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:12:44,624 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:12:45,629 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:13:49,403 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:13:49,431 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.100:11211 -- only 0 created
+2013-10-21 22:13:50,451 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:13:50,451 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.2:11211 -- only 0 created
+2013-10-21 22:13:51,469 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:13:52,473 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:13:53,481 [8] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:14:37,069 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:14:38,074 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:14:39,117 [5] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:31:10,425 [31] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:31:10,458 [31] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.100:11211 -- only 0 created
+2013-10-21 22:31:11,459 [31] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:31:11,459 [31] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.2:11211 -- only 0 created
+2013-10-21 22:31:12,475 [31] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:31:13,485 [31] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:31:14,486 [31] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:32:00,772 [30] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:32:00,795 [30] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.100:11211 -- only 0 created
+2013-10-21 22:32:01,796 [30] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:32:01,796 [30] ERROR Memcached.ClientLibrary.SockIOPool - Failed to create connection to: 192.168.1.2:11211 -- only 0 created
+2013-10-21 22:32:02,813 [30] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:32:03,831 [30] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.2:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:32:04,835 [30] ERROR Memcached.ClientLibrary.SockIOPool - Failed to get SockIO obj for: 192.168.1.100:11211 -- new socket is not connected
+System.IO.IOException: Could not connect for 1000 milliseconds
+   在 Memcached.ClientLibrary.SockIO.GetSocket(String host, Int32 port, Int32 timeout)
+   在 Memcached.ClientLibrary.SockIO..ctor(SockIOPool pool, String host, Int32 timeout, Int32 connectTimeout, Boolean noDelay)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+2013-10-21 22:42:36,256 [10] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 886
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:42:46,655 [10] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 886
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:42:59,674 [10] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 886
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:43:55,010 [10] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 886
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:44:12,094 [10] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 886
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:46:06,444 [10] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 886
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:46:26,775 [10] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 886
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:48:18,899 [5] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 893
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.GetCache(String key)
+   在 HeiMa8.OA.UI.Portal.Models.LoginCheckFilterAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Models\LoginCheckFilterAttribute.cs:行号 32
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+2013-10-21 22:49:28,718 [5] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> Spring.Objects.Factory.ObjectCreationException: Error creating object with name 'CacheWriter' defined in 'file [D:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Config\common.xml] line 9' : Initialization of object failed : Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> Spring.Util.FatalReflectionException: Cannot instantiate Type [HeiMa8.OA.Model.Cache.MemcacheWriter] using ctor [Void .ctor()] : '键不能为 null。
+参数名: key' ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 _dynamic_HeiMa8.OA.Model.Cache.MemcacheWriter..ctor(Object[] )
+   在 Spring.Reflection.Dynamic.SafeConstructor.Invoke(Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Reflection\Dynamic\DynamicConstructor.cs:行号 113
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 248
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Util.ObjectUtils.InstantiateType(ConstructorInfo constructor, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Util\ObjectUtils.cs:行号 253
+   在 Spring.Objects.Factory.Support.SimpleInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\SimpleInstantiationStrategy.cs:行号 95
+   在 Spring.Objects.Factory.Support.WebInstantiationStrategy.Instantiate(RootObjectDefinition definition, String name, IObjectFactory factory) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Web\Objects\Factory\Support\WebInstantiationStrategy.cs:行号 80
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String objectName, RootObjectDefinition definition) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 1025
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.CreateObjectInstance(String objectName, RootObjectDefinition objectDefinition, Object[] arguments) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 989
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 893
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Spring.Objects.Factory.Support.AbstractAutowireCapableObjectFactory.InstantiateObject(String name, RootObjectDefinition definition, Object[] arguments, Boolean allowEagerCaching, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractAutowireCapableObjectFactory.cs:行号 927
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObjectInternal(String name, Type requiredType, Object[] arguments, Boolean suppressConfigure) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 2180
+   在 Spring.Objects.Factory.Support.AbstractObjectFactory.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Objects\Factory\Support\AbstractObjectFactory.cs:行号 1912
+   在 Spring.Context.Support.AbstractApplicationContext.GetObject(String name) 位置 f:\bamboo-home\xml-data\build-dir\SPRNET-RELEASE-JOB1\src\Spring\Spring.Core\Context\Support\AbstractApplicationContext.cs:行号 1766
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:51:13,555 [5] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 15
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate)
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 22:52:35,901 [6] ERROR Demo - System.TypeInitializationException: “HeiMa8.OA.Model.Cache.CacheHelper”的类型初始值设定项引发异常。 ---> System.ArgumentNullException: 键不能为 null。
+参数名: key
+   在 System.Collections.Hashtable.ContainsKey(Object key)
+   在 Memcached.ClientLibrary.SockIOPool.CreateSocket(String host)
+   在 Memcached.ClientLibrary.SockIOPool.Initialize()
+   在 HeiMa8.OA.Model.Cache.MemcacheWriter..ctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\MemcacheWriter.cs:行号 33
+   在 HeiMa8.OA.Model.Cache.CacheHelper..cctor() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.Model\Cache\CacheHelper.cs:行号 15
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 HeiMa8.OA.Model.Cache.CacheHelper.GetCache(String key)
+   在 HeiMa8.OA.UI.Portal.Models.LoginCheckFilterAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Models\LoginCheckFilterAttribute.cs:行号 32
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+2013-10-21 23:05:42,420 [5] ERROR Demo - System.Runtime.Serialization.SerializationException: 程序集“EntityFrameworkDynamicProxies-HeiMa8.OA.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中的类型“System.Data.Entity.DynamicProxies.UserInfo_DF25E66365ADF4C5C8AE0E33F9FAD90A2C32443E88B3C544304E6701B3125460”未标记为可序列化。
+   在 System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   在 System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   在 Memcached.ClientLibrary.MemcachedClient.Set(String cmdname, String key, Object obj, DateTime expiry, Object hashCode, Boolean asString)
+   在 Memcached.ClientLibrary.MemcachedClient.Add(String key, Object value, DateTime expiry)
+   在 HeiMa8.OA.UI.Portal.Cache.MemcacheWriter.AddCache(String key, Object value, DateTime extDate) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Cache\MemcacheWriter.cs:行号 41
+   在 HeiMa8.OA.UI.Portal.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Cache\CacheHelper.cs:行号 33
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 23:07:26,409 [17] ERROR Demo - System.Runtime.Serialization.SerializationException: 程序集“EntityFrameworkDynamicProxies-HeiMa8.OA.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中的类型“System.Data.Entity.DynamicProxies.UserInfo_DF25E66365ADF4C5C8AE0E33F9FAD90A2C32443E88B3C544304E6701B3125460”未标记为可序列化。
+   在 System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   在 System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   在 Memcached.ClientLibrary.MemcachedClient.Set(String cmdname, String key, Object obj, DateTime expiry, Object hashCode, Boolean asString)
+   在 Memcached.ClientLibrary.MemcachedClient.Add(String key, Object value, DateTime expiry)
+   在 HeiMa8.OA.UI.Portal.Cache.MemcacheWriter.AddCache(String key, Object value, DateTime extDate) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Cache\MemcacheWriter.cs:行号 41
+   在 HeiMa8.OA.UI.Portal.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Cache\CacheHelper.cs:行号 33
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2013-10-21 23:07:33,274 [17] ERROR Demo - System.Runtime.Serialization.SerializationException: 程序集“EntityFrameworkDynamicProxies-HeiMa8.OA.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中的类型“System.Data.Entity.DynamicProxies.UserInfo_DF25E66365ADF4C5C8AE0E33F9FAD90A2C32443E88B3C544304E6701B3125460”未标记为可序列化。
+   在 System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   在 System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   在 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   在 Memcached.ClientLibrary.MemcachedClient.Set(String cmdname, String key, Object obj, DateTime expiry, Object hashCode, Boolean asString)
+   在 Memcached.ClientLibrary.MemcachedClient.Add(String key, Object value, DateTime expiry)
+   在 HeiMa8.OA.UI.Portal.Cache.MemcacheWriter.AddCache(String key, Object value, DateTime extDate) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Cache\MemcacheWriter.cs:行号 41
+   在 HeiMa8.OA.UI.Portal.Cache.CacheHelper.AddCache(String key, Object value, DateTime expDate) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Cache\CacheHelper.cs:行号 33
+   在 HeiMa8.OA.UI.Portal.Controllers.UserLoginController.ProcessLogin() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\UserLoginController.cs:行号 84
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)

@@ -1,0 +1,125 @@
+2014-02-15 21:29:53,390 [5] ERROR Demo - System.Runtime.DurableInstancing.InstanceNotReadyException: InstancePersistenceCommand 的执行被中断，因为实例“f5f4c33b-9fcf-485f-aaea-f424a1ef1090”尚未保留到实例存储区。
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.Runtime.DurableInstancing.InstancePersistenceContext.OuterExecute(InstanceHandle initialInstanceHandle, InstancePersistenceCommand command, Transaction transaction, TimeSpan timeout)
+   在 System.Runtime.DurableInstancing.InstanceStore.Execute(InstanceHandle handle, InstancePersistenceCommand command, TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.PersistenceManager.Load(TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.LoadValues(PersistenceManager persistenceManager, TimeoutHelper timeoutHelper, Boolean loadAny)
+   在 System.Activities.WorkflowApplication.LoadCore(DynamicUpdateMap updateMap, TimeoutHelper timeoutHelper, Boolean loadAny, IDictionary`2 values)
+   在 System.Activities.WorkflowApplication.Load(Guid instanceId, TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.Load(Guid instanceId)
+   在 HeiMa8.OA.WorkFlow.WorkflowApplicationHelper.ResumeBookMark(Activity activity, Guid instanceid, String bookMarkName, Object value) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.WorkFlow\WorkflowApplicationHelper.cs:行号 138
+   在 HeiMa8.OA.UI.Portal.Controllers.WFInstanceController.DoCheck(Int32 stepId, Boolean isPass, String Comment, Int32 flowTo) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\WFInstanceController.cs:行号 243
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2014-02-15 21:30:27,926 [5] ERROR Demo - System.Runtime.DurableInstancing.InstanceNotReadyException: InstancePersistenceCommand 的执行被中断，因为实例“1d5ad37e-1030-4a79-b87f-4c6f1dc2d6bb”尚未保留到实例存储区。
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.Runtime.DurableInstancing.InstancePersistenceContext.OuterExecute(InstanceHandle initialInstanceHandle, InstancePersistenceCommand command, Transaction transaction, TimeSpan timeout)
+   在 System.Runtime.DurableInstancing.InstanceStore.Execute(InstanceHandle handle, InstancePersistenceCommand command, TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.PersistenceManager.Load(TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.LoadValues(PersistenceManager persistenceManager, TimeoutHelper timeoutHelper, Boolean loadAny)
+   在 System.Activities.WorkflowApplication.LoadCore(DynamicUpdateMap updateMap, TimeoutHelper timeoutHelper, Boolean loadAny, IDictionary`2 values)
+   在 System.Activities.WorkflowApplication.Load(Guid instanceId, TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.Load(Guid instanceId)
+   在 HeiMa8.OA.WorkFlow.WorkflowApplicationHelper.ResumeBookMark(Activity activity, Guid instanceid, String bookMarkName, Object value) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.WorkFlow\WorkflowApplicationHelper.cs:行号 138
+   在 HeiMa8.OA.UI.Portal.Controllers.WFInstanceController.DoCheck(Int32 stepId, Boolean isPass, String Comment, Int32 flowTo) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\WFInstanceController.cs:行号 243
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2014-02-15 22:04:05,163 [5] ERROR Demo - System.Reflection.TargetException: 非静态方法需要一个目标。
+   在 System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   在 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 System.Data.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object& memberValue)
+   在 System.Data.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression& constantExpression)
+   在 System.Data.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Data.Entity.Internal.Linq.InternalQuery`1.GetEnumerator()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 HeiMa8.OA.UI.Portal.Controllers.WFInstanceController.ShowMyUnCheck() 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\WFInstanceController.cs:行号 153
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+2014-02-15 22:05:04,744 [5] ERROR Demo - 工作流实例id是：cee4a4ed-8764-4241-957f-f706fec95da6
+2014-02-15 22:05:04,775 [5] ERROR Demo - SetStepCodeActivity:部门经理审批
+2014-02-15 22:05:04,946 [5] ERROR Demo - 工作流停下来了
+2014-02-15 22:05:04,946 [5] ERROR Demo - 工作卸载进行持久化
+2014-02-15 22:05:06,296 [5] ERROR Demo - 工作流被卸载了
+2014-02-15 22:05:23,610 [5] ERROR Demo - 工作流实例id是：af871231-0678-4e39-bac6-6c255f91962c
+2014-02-15 22:05:23,643 [5] ERROR Demo - SetStepCodeActivity:项目经理审批
+2014-02-15 22:05:23,747 [5] ERROR Demo - 工作流停下来了
+2014-02-15 22:05:23,747 [5] ERROR Demo - 工作卸载进行持久化
+2014-02-15 22:05:24,268 [5] ERROR Demo - 工作流被卸载了
+2014-02-15 22:05:51,643 [5] ERROR Demo - 工作流实例id是：63dc6bd0-b1a5-46a5-a476-0b6b4f015746
+2014-02-15 22:05:51,692 [5] ERROR Demo - SetStepCodeActivity:项目经理审批
+2014-02-15 22:05:52,225 [5] ERROR Demo - 工作流停下来了
+2014-02-15 22:05:52,225 [5] ERROR Demo - 工作卸载进行持久化
+2014-02-15 22:05:52,256 [5] ERROR Demo - 工作流被卸载了
+2014-02-15 22:06:23,739 [5] ERROR Demo - 工作流实例id是：cee4a4ed-8764-4241-957f-f706fec95da6
+2014-02-15 22:06:23,770 [5] ERROR Demo - SetStepCodeActivity:总监审批
+2014-02-15 22:06:24,192 [5] ERROR Demo - 工作流被卸载了。。
+2014-02-15 22:07:08,874 [5] ERROR Demo - 工作流实例id是：cee4a4ed-8764-4241-957f-f706fec95da6
+2014-02-15 22:07:08,930 [5] ERROR Demo - SetStepCodeActivity:审核结束
+2014-02-15 22:07:09,523 [5] ERROR Demo - 工作流被卸载了。。
+2014-02-15 22:07:28,517 [5] ERROR Demo - 工作流实例id是：af871231-0678-4e39-bac6-6c255f91962c
+2014-02-15 22:07:28,550 [5] ERROR Demo - SetStepCodeActivity:总监审批
+2014-02-15 22:07:29,043 [5] ERROR Demo - 工作流被卸载了。。
+2014-02-15 22:07:52,576 [5] ERROR Demo - 工作流实例id是：af871231-0678-4e39-bac6-6c255f91962c
+2014-02-15 22:07:52,626 [5] ERROR Demo - SetStepCodeActivity:审核结束
+2014-02-15 22:07:53,153 [5] ERROR Demo - 工作流被卸载了。。
+2014-02-15 22:08:36,972 [5] ERROR Demo - 工作流实例id是：63dc6bd0-b1a5-46a5-a476-0b6b4f015746
+2014-02-15 22:08:37,005 [5] ERROR Demo - SetStepCodeActivity:财务部审批
+2014-02-15 22:08:37,213 [5] ERROR Demo - 工作流被卸载了。。
+2014-02-15 22:09:09,467 [5] ERROR Demo - 工作流实例id是：63dc6bd0-b1a5-46a5-a476-0b6b4f015746
+2014-02-15 22:09:09,503 [5] ERROR Demo - SetStepCodeActivity:总监审批
+2014-02-15 22:09:09,892 [5] ERROR Demo - 工作流被卸载了。。
+2014-02-15 22:09:35,561 [5] ERROR Demo - 工作流实例id是：63dc6bd0-b1a5-46a5-a476-0b6b4f015746
+2014-02-15 22:09:35,594 [5] ERROR Demo - SetStepCodeActivity:用户重新提交申请
+2014-02-15 22:09:35,838 [5] ERROR Demo - 工作流被卸载了。。
+2014-02-15 22:10:40,435 [5] ERROR Demo - 工作流实例id是：afa8faaf-e948-495d-a721-cc1c37dd3569
+2014-02-15 22:10:40,466 [5] ERROR Demo - SetStepCodeActivity:项目经理审批
+2014-02-15 22:10:40,575 [5] ERROR Demo - 工作流停下来了
+2014-02-15 22:10:40,723 [5] ERROR Demo - 工作卸载进行持久化
+2014-02-15 22:10:41,855 [5] ERROR Demo - 工作流被卸载了

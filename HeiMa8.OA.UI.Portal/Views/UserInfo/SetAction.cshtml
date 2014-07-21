@@ -1,0 +1,119 @@
+﻿@using HeiMa8.OA.Model
+@model HeiMa8.OA.Model.ActionInfo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SetAction</title>
+    <script src="~/Scripts/jquery-1.7.1.js"></script>
+    <link href="~/Content/tableStyle.css" rel="stylesheet" />
+    <script>
+        $(function () {
+            //加载已经选中的radiobox
+
+            //radiobutton事件
+            $(":radio").click(function () {
+                var UId = $(this).attr("uid");
+                var ActionId = $(this).attr("actionId");
+
+                var value = $(this).val();
+
+                $.post("/UserInfo/ProcessSetUserAction", { UId: UId, ActionId: ActionId, Value: value }, function (data) {
+                    alert(data);
+                })
+            })
+
+            //btn删除事件
+
+            $(".btnDel").click(function () {
+
+                //如果有选中 checkbox
+                if ($(this).siblings(":checked").length > 0)
+                {
+                    //提交后台
+                    $.post("/UserInfo/DeleteUserAction", { UId: $(this).attr("uid"), ActionId: $(this).attr("actionId") }, function (data) {
+                        alert(data);
+                    })
+                }
+                $(this).siblings(":radio").attr("checked", false);
+
+            })
+        })
+
+
+    </script>
+</head>
+<body>
+    <div>
+        @{
+            UserInfo user = ViewBag.User;
+            List<ActionInfo> AllActions = ViewBag.AllActions;
+            List<R_UserInfo_ActionInfo> AllExistActions = ViewBag.AllExistActions;
+            
+            string s1 = "允许";
+            string s2 = "拒绝"; 
+            
+         }
+         <h2>给用户 @user.UName 设置特殊权限</h2>
+        @{
+            int k = 0;
+            <table>
+                <tr>
+                    <th>权限ID</th>
+                    <th>权限名</th>
+                    <th>权限地址</th>
+                    <th>请求方法</th>
+                    <th>操作</th>
+                </tr>
+                @foreach (var actionInfo in AllActions)
+                {
+                    var currentRAU = AllExistActions.Where(a => a.ActionInfoID == actionInfo.ID).FirstOrDefault();
+                    string strId = "rd_" + actionInfo.ID;
+                    <tr>
+                        <td>@actionInfo.ID</td>
+                        <td>@actionInfo.ActionName</td>
+                        <td>@actionInfo.Url</td>
+                        <td>@actionInfo.HttpMethod</td>
+                        <td>
+                        @if (currentRAU != null)
+                        {
+                            string strRadio;
+                            if (currentRAU.HasPermission)
+                            {
+                                strRadio = "<input checked='checked' type='radio' uid='" + user.ID + "' actionId='"+actionInfo.ID+"'"
+                                           + " name='" + strId + "' value='1' />允许 &nbsp; &nbsp; <input type='radio' uid='" + 
+                                user.ID + "' actionId='" + actionInfo.ID + "'"
+                                           + " name='" + strId + "' value='0' />拒绝"
+                                    ;
+                            }
+                            else
+                            {
+                                strRadio = "<input type='radio' uid='" + user.ID + "' actionId='" + actionInfo.ID + "'"
+                                          + " name='" + strId + "' value='1' />允许 &nbsp; &nbsp; <input checked='checked' type='radio' uid='" + user.ID + "' actionId='" + actionInfo.ID + "'"
+                                          + " name='" + strId + "' value='0' />拒绝";
+                            }
+                            @Html.Raw(strRadio)
+                        }
+                        else
+                        {
+                             @s1<input type="radio" name="@strId" uid="@user.ID" actionId="@actionInfo.ID" value="1" />
+                             @s2<input type="radio" name="@strId" uid="@user.ID" actionId="@actionInfo.ID" value="0" />
+                        }
+                      
+                        <input type="button" class="btnDel" id="btnDelete" value="删除" uid="@user.ID" actionId="@actionInfo.ID"/>
+                    </td>
+                    </tr>
+                
+                }
+            </table>
+         }
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+﻿@model HeiMa8.OA.Model.WF_Instance
+@using HeiMa8.OA.Model;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+
+     <!--jquery mobile -->
+    <script src="/mobile/js/lib/jquery.js"></script>
+    <script src="/mobile/js/lib/jquery.mobile-1.3.1.js"></script>
+    <link href="/mobile/css/jquery.mobile-1.3.1.css" rel="stylesheet" />
+    <link href="/mobile/_assets/css/jqm-demos.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <div id="Addpage" data-role="page">
+        <script>
+            $(function () {
+                GetCurrentUser();
+                SubmitForm();
+                GetTempModelByID();
+                GetAllUses();
+                GetAllTypeCount();
+                //$.mobile.pa
+            });
+
+            // jsonp 获取当前用户
+            function GetCurrentUser() {
+                $.getJSON("/WFInstance/GetCurrentUser?callback=?", {}, function (data) {
+                    $("#User").text("当前用户" + data);
+
+                })
+
+            }
+
+            //jsonp 获取当前Temp;
+            function GetTempModelByID() {
+                $.getJSON("/WFInstance/GetTempModelByID?callback=?", {}, function (data) {
+                    //alert(data.TempForm);
+                    $("#tbboby").append("<tr><td>流程类型:</td><td>" + data.TempName + "<input type='hidden' name='id' value='" + data.ID + "'/></td></tr>");
+                    $("#tbboby").append("<tr><td>流程描述:</td><td>" + data.Description + "</td></tr>");
+                    $("#tbboby").append("<tr><td>流程名称:</td><td><div class='ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c'><input type='text' name='InstanceName' class='text-box single-line ui-input-text ui-body-c' /></div></td></tr>");
+                    $("#tbboby").append("<tr><td>申请内容:</td><td><textarea cols='40' rows='12' name='Content' style='resize: none' class='ui-input-text ui-body-c ui-corner-all ui-shadow-inset'>" + data.TempForm + "</textarea></td></tr>");
+
+                })
+            }
+
+            function GetAllUses() {
+                $.getJSON("/WFInstance/GetAllUses?callback=?", {}, function (data) {
+                    var se = $("#fs")
+                    for (var key in data) {
+
+                        se.append("<option value='" + data[key].ID + "'>" + data[key].UName + "</option>");
+                    }
+                    
+                })
+            }
+
+            //获取当前用户的已审批，待审批，总的流程分别的个数
+            function GetAllTypeCount() {
+
+                $.getJSON("/WFInstance/GetAllTypeCount?callback=?", {}, function (data) {
+                    //alert(data);
+                    //alert(data.CheckCount);
+                    $("#MyCheck").html(data.CheckCount);
+                    $("#MyChecked").html(data.CheckedCount);
+                    $("#MyUnCheck").html(data.UnCheckCount);
+                })
+            }
+
+
+            //点击按钮 提交表单
+            function SubmitForm() {
+                $("#btnAdd").click(function () {
+                    $.ajax({
+                        url: "/WFInstance/Add",
+                        type: "POST",
+                        data: $("form#FormAdd").serialize(),//序列化表单
+                        success: function (data) {
+
+                            if (data == "ok") {
+                                window.location.href = "/WFInstance/ShowMyCheck";
+                            }
+                            else {
+                                alert(data);
+                            }
+                        },
+                        error: function () {
+                            alert("发生错误");
+
+                        },
+                    });
+                })
+            }
+    </script>
+        <div data-role="header" data-theme="b" data-position="fixed">
+            <h1>移动OA系统</h1>
+            <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+        <div id="content" data-role="content">
+            <form id="FormAdd" method="post">
+                <table data-role="table" id="movie-table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="发起流程">
+                    <tbody id="tbboby">
+
+                    </tbody>
+                     <tfoot>
+                        <tr>
+                            <td>
+                                流转到:
+                            </td>
+                            <td id="Op">
+                                <select name='flowTo' id="fs"></select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="button" value="发起流程" id="btnAdd" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+
+        </div>
+
+        <!-- footer -->
+        <div data-role="footer" data-position="fixed" data-theme="b">
+            <h4>移动OA系统</h4>
+        </div>
+
+        <!--menu 菜单-->
+        <div data-role="panel" data-position-fixed="true" data-theme="c" id="nav-panel">
+
+            <ul data-role="listview" data-theme="c" class="nav-search">
+                <li data-icon="delete">
+                    <a href="#">
+                        <h1 id="User"></h1>
+                    </a><a href="/UserLogin/Index" rel="external">退出</a>
+                </li>
+                <li><a href="/Home/Index" rel="external">首页</a></li>
+                <li><a href="/WFTemp/StartWF" rel="external">发起流程</a></li>
+                <li><a href="/WFInstance/ShowMyCheck" rel="external">我的审批流程<span class="ui-li-count" id="MyCheck"></span></a></li>
+                <li><a href="/WFInstance/ShowMyChecked" rel="external">已审批流程<span class="ui-li-count" id="MyChecked"></span></a></li>
+                <li><a href="/WFInstance/ShowMyUnCheck" rel="external">待审批流程<span class="ui-li-count" id="MyUnCheck"></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

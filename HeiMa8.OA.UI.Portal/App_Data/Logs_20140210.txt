@@ -1,0 +1,34 @@
+2014-02-10 22:19:33,583 [9] ERROR Demo - 工作流实例id是：e0288250-cf68-43c5-8aba-a35a6c2b9abc
+2014-02-10 22:19:36,027 [9] ERROR Demo - SetStepCodeActivity:部门经理审批
+2014-02-10 22:19:39,364 [9] ERROR Demo - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HeiMa8.OA.WorkFlow.SetStepCodeActivity.Execute(CodeActivityContext context) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.WorkFlow\SetStepCodeActivity.cs:行号 52
+   在 System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   在 System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   在 System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+2014-02-10 22:20:47,069 [9] ERROR Demo - 工作流被卸载了
+2014-02-10 22:32:23,824 [9] ERROR Demo - System.Runtime.DurableInstancing.InstanceNotReadyException: InstancePersistenceCommand 的执行被中断，因为实例“e0288250-cf68-43c5-8aba-a35a6c2b9abc”尚未保留到实例存储区。
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.Runtime.DurableInstancing.InstancePersistenceContext.OuterExecute(InstanceHandle initialInstanceHandle, InstancePersistenceCommand command, Transaction transaction, TimeSpan timeout)
+   在 System.Runtime.DurableInstancing.InstanceStore.Execute(InstanceHandle handle, InstancePersistenceCommand command, TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.PersistenceManager.Load(TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.LoadValues(PersistenceManager persistenceManager, TimeoutHelper timeoutHelper, Boolean loadAny)
+   在 System.Activities.WorkflowApplication.LoadCore(DynamicUpdateMap updateMap, TimeoutHelper timeoutHelper, Boolean loadAny, IDictionary`2 values)
+   在 System.Activities.WorkflowApplication.Load(Guid instanceId, TimeSpan timeout)
+   在 System.Activities.WorkflowApplication.Load(Guid instanceId)
+   在 HeiMa8.OA.WorkFlow.WorkflowApplicationHelper.ResumeBookMark(Activity activity, Guid instanceid, String bookMarkName, Object value) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.WorkFlow\WorkflowApplicationHelper.cs:行号 138
+   在 HeiMa8.OA.UI.Portal.Controllers.WFInstanceController.DoCheck(Int32 stepId, Boolean isPass, String Comment, Int32 flowTo) 位置 d:\我的文档\VS2012\Websites\HeiMa8.OA\HeiMa8.OA.UI.Portal\Controllers\WFInstanceController.cs:行号 239
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)

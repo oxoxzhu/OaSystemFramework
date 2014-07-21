@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object type="HeiMa8.OA.UI.Portal.Controllers.UserInfoController, HeiMa8.OA.UI.Portal" singleton="false" >
+    <property name="UserInfoBLL" ref="UserInfoBLL" />
+    <property name="RoleInfoBLL" ref="RoleInfoBLL" />
+    <property name="ActionInfoBLL" ref="ActionInfoBLL" />
+    <property name="R_UserInfo_ActionInfoBLL" ref="R_UserInfo_ActionInfoBLL" />
+    
+  </object>
+  
+  <!--给userLogin控制器 注入一个UserInfo对象-->
+  <object type="HeiMa8.OA.UI.Portal.Controllers.UserLoginController, HeiMa8.OA.UI.Portal" singleton="false" >
+    <property name="UserInfoBLL" ref="UserInfoBLL" />
+  </object>
+
+  <!--给ActionInfo控制器 注入一个ActionInfo对象-->
+  <object type="HeiMa8.OA.UI.Portal.Controllers.ActionInfoController, HeiMa8.OA.UI.Portal" singleton="false" >
+    <property name="ActionInfoBLL" ref="ActionInfoBLL" />
+    <property name="RoleInfoBLL" ref="RoleInfoBLL" />
+  </object>
+
+  <!--给RoleInfo控制器 注入一个RoleInfo对象-->
+  <object type="HeiMa8.OA.UI.Portal.Controllers.RoleInfoController, HeiMa8.OA.UI.Portal" singleton="false" >
+    <property name="RoleInfoBLL" ref="RoleInfoBLL" />
+  </object>
+
+  <!--给Home控制器 注入一个actionInfo,userInfo对象-->
+  <object type="HeiMa8.OA.UI.Portal.Controllers.HomeController, HeiMa8.OA.UI.Portal" singleton="false" >
+    <property name="UserInfoBLL" ref="UserInfoBLL" />
+    <property name="ActionInfoBLL" ref="ActionInfoBLL" />
+  </object>
+
+  <!--给WFTemp控制器 注入一个WF_TempBLL对象-->
+  <object type="HeiMa8.OA.UI.Portal.Controllers.WFTempController, HeiMa8.OA.UI.Portal" singleton="false" >
+    <property name="WF_TempBLL" ref="WF_TempBLL" />
+  </object>
+
+  <!--给WFInstance控制器 注入对象-->
+  <object type="HeiMa8.OA.UI.Portal.Controllers.WFInstanceController, HeiMa8.OA.UI.Portal" singleton="false" >
+    <property name="WF_TempBLL" ref="WF_TempBLL" />
+    <property name="UserInfoBLL" ref="UserInfoBLL" />
+    <property name="WF_InstanceBLL" ref="WF_InstanceBLL" />
+    <property name="WF_StepBLL" ref="WF_StepBLL" />
+  </object>
+</objects>

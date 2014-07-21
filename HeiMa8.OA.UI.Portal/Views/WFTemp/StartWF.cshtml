@@ -1,0 +1,97 @@
+﻿@{
+    Layout = null;
+}
+@model IEnumerable<HeiMa8.OA.Model.WF_Temp>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StartWF</title>
+    
+     <!--jquery mobile -->
+    <script src="/mobile/js/lib/jquery.js"></script>
+    <script src="/mobile/js/lib/jquery.mobile-1.3.1.js"></script>
+    <link href="/mobile/css/jquery.mobile-1.3.1.css" rel="stylesheet" />
+    <link href="/mobile/_assets/css/jqm-demos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div data-role="page" id="StartWFpage">
+        <script>
+            $(function () {
+                GetCurrentUser();
+                GetTempModel();
+                GetAllTypeCount();
+            });
+
+            // jsonp 获取当前用户
+            function GetCurrentUser() {
+                $.getJSON("/WFInstance/GetCurrentUser?callback=?", {}, function (data) {
+                    $("#User").html("当前用户" + data);
+
+                })
+
+            }
+            //jsonp 获取全部的模板流程
+
+            function GetTempModel() {
+
+                $.getJSON("/WFTemp/GetTempModel?callback=?", {}, function (data) {
+                    for (var key in data) {
+                        
+                        $("#content").append("<p><a href='/WFInstance/Add/" + data[key].ID + "' data-role='button' uid='"+data[key].ID+"' rel='external' data-icon='arrow-r' data-iconpos='right' data-corners='true' data-shadow='true' data-iconshadow='true' data-wrapperels='span' data-theme='c' class='ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-right ui-btn-hover-c ui-btn-up-c'><span class='ui-btn-inner'><span class='ui-btn-text'>" + data[key].TempName + " </span><span class='ui-icon ui-icon-arrow-r ui-icon-shadow'>&nbsp;</span></span></a></p>");
+                    }
+
+                    $("#content p a").click(function () {
+                        //alert($(this).attr("uid"));
+                        $.get("/WFInstance/SaveAddInstanceID/" + $(this).attr("uid"), {}, function (data) {
+                            //alert(data);
+                        });
+                    });
+                })
+            }
+
+            //获取当前用户的已审批，待审批，总的流程分别的个数
+            function GetAllTypeCount() {
+
+                $.getJSON("/WFInstance/GetAllTypeCount?callback=?", {}, function (data) {
+                    //alert(data);
+                    //alert(data.CheckCount);
+                    $("#MyCheck").html(data.CheckCount);
+                    $("#MyChecked").html(data.CheckedCount);
+                    $("#MyUnCheck").html(data.UnCheckCount);
+                })
+            }
+    </script>
+        <div data-role="header" data-theme="b" data-position="fixed">
+            <h1>移动OA系统</h1>
+            <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+        <div id="content" data-role="content">
+
+           
+        </div>
+
+        <!-- footer -->
+        <div data-role="footer" data-position="fixed" data-theme="b">
+            <h4>移动OA系统</h4>
+        </div>
+        <div data-role="panel" data-position-fixed="true" data-theme="c" id="nav-panel">
+
+            <ul data-role="listview" data-theme="c" class="nav-search">
+                <li data-icon="delete">
+                    <a href="#">
+                        <h1 id="User"></h1>
+                    </a><a href="/UserLogin/Index" rel="external">退出</a>
+                </li>
+                <li><a href="/Home/Index" rel="external">首页</a></li>
+                <li><a href="/WFTemp/StartWF" rel="external">发起流程</a></li>
+                <li><a href="/WFInstance/ShowMyCheck" rel="external">我的审批流程<span class="ui-li-count" id="MyCheck"></span></a></li>
+                <li><a href="/WFInstance/ShowMyChecked" rel="external">已审批流程<span class="ui-li-count" id="MyChecked"></span></a></li>
+                <li><a href="/WFInstance/ShowMyUnCheck" rel="external">待审批流程<span class="ui-li-count" id="MyUnCheck"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

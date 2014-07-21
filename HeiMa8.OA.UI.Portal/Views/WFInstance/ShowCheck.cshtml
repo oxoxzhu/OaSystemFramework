@@ -1,0 +1,224 @@
+﻿@model HeiMa8.OA.Model.WF_Instance
+@using HeiMa8.OA.Model;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowCheck</title>
+    <script src="~/Scripts/jquery-easyui-1.3.1/datapattern.js"></script>
+    <!--jquery mobile -->
+    <script src="/mobile/js/lib/jquery.js"></script>
+    <script src="/mobile/js/lib/jquery.mobile-1.3.1.js"></script>
+    <link href="/mobile/css/jquery.mobile-1.3.1.css" rel="stylesheet" />
+    <link href="/mobile/_assets/css/jqm-demos.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="page" data-role="page">
+        <script type="text/javascript">
+            var TempData;
+            var UserData;
+            var StepData;
+            var CurrentStepID;
+            $(function () {
+                //获取所有流程模板
+                $.ajaxSettings.async = false;
+                $.getJSON("/WFTemp/GetTempModel?callback=?", {}, function (Data) {
+                    //alert("1");
+                    TempData = Data;
+                });
+
+                //获取所有用户
+                $.ajaxSettings.async = false;
+                $.getJSON("/WFInstance/GetAllUses?callback=?", {}, function (DataList) {
+                    //alert("2");
+                    UserData = DataList;
+                    var se = $("#flowTo");
+                    for (var key in DataList) {
+
+                        se.append("<option value='" + DataList[key].ID + "'>" + DataList[key].UName + "</option>");
+                    }
+                });
+
+                //当前实例的所有step步骤 showcheck
+                $.ajaxSettings.async = false;
+                $.getJSON("/WFInstance/GetInstanceStepByID?type=1&callback=?", {}, function (step) {
+                    //alert("3");
+                    StepData = step;
+                });
+                $.ajaxSettings.async = false;
+                $.getJSON("/WFInstance/GetCurrentInstanceStepID?callback=?", {}, function (data) {
+                    // alert("4");
+                    CurrentStepID = data;
+                })
+
+                GetCurrentUser();
+                GetInstanceByID();
+                GetAllTypeCount();
+            });
+
+            // jsonp 获取当前用户
+            function GetCurrentUser() {
+                $.ajaxSettings.async = false;
+                $.getJSON("/WFInstance/GetCurrentUser?callback=?", {}, function (data) {
+                    $("#User").html("当前用户" + data);
+                    //alert("5");
+                })
+
+            }
+
+            //流程详情
+            function GetInstanceByID() {
+                $.ajaxSettings.async = false;
+                $.getJSON("/WFInstance/GetInstanceByID?type=1&callback=?", {}, function (data) {
+
+                    //alert("6");
+                    $("#tbbody").append("<tr><td>流程名: </td><td>" + data.InstanceName + "</td></tr>");
+
+                    for (var item in TempData) {
+
+                        if (TempData[item].ID == data.WF_TempID) {
+                            $("#tbbody").append("<tr><td>模板名: </td><td>" + TempData[item].TempName + "</td><tr>");
+                            break;
+                        }
+                    }
+
+                    for (var i in UserData) {
+                        if (UserData[i].ID == data.StartBy) {
+                            $("#tbbody").append("<tr><td>申请人: </td><td>" + UserData[i].UName + "</td><tr>");
+                            break;
+                        }
+                    }
+
+                    $("#tbbody").append("<tr><td>申请时间: </td><td>" + (eval(data.StartTime.replace(/\/Date\((\d+)\)\//gi, "new Date($1)"))).pattern("yyyy-MM-dd HH:mm:ss") + "</td></tr>");
+
+                    $("#tbbody").append("<tr><td>申请内容: </td><td>" + data.Content + "</td></tr>");
+
+                    var tr = $("<tr><td>审批步骤：</td></tr>");
+                    var td = $("<td></td>");
+                    var p = $("<p></p>");
+
+                    tr.append(td);
+                    td.append(p);
+                    for (var key in StepData) {
+
+                        p.append("审批节点：" + StepData[key].StepName + "</br>");
+                        for (var j in UserData) {
+                            if (UserData[j].ID == StepData[key].ProcessBy) {
+                                p.append("审批人：" + UserData[j].UName + "</br>");
+                                break;
+                            }
+                        }
+
+                        p.append("审批时间：" + (eval(StepData[key].SubTime.replace(/\/Date\((\d+)\)\//gi, "new Date($1)"))).pattern("yyyy-MM-dd HH:mm:ss") + "</br>");
+
+                        if (StepData[key].ProcessResult.length == 0) {
+                            p.append("审批结果：" + "正在审批中" + "</br>");
+                        } else {
+                            p.append("审批结果：" + StepData[key].ProcessResult + "</br>");
+                        }
+                        p.append("审批意见：" + StepData[key].ProcessContent + "</br></br>");
+
+                    }
+                    $("#tbbody").append(tr);
+                })
+            }
+
+            //获取当前用户的已审批，待审批，总的流程分别的个数
+            function GetAllTypeCount() {
+
+                $.getJSON("/WFInstance/GetAllTypeCount?callback=?", {}, function (data) {
+                    //alert(data);
+                    //alert(data.CheckCount);
+                    //alert("7");
+                    $("#MyCheck").html(data.CheckCount);
+                    $("#MyChecked").html(data.CheckedCount);
+                    $("#MyUnCheck").html(data.UnCheckCount);
+                })
+            }
+
+        </script>
+        <script>
+            $(function () {
+                $("#pass").click(function () {
+                    postCheck(true);
+                });
+
+                $("#nopass").click(function () {
+                    postCheck(false);
+
+                });
+            });
+
+
+            function postCheck(pass) {
+                var id = CurrentStepID;
+
+                $.post("/WFInstance/DoCheck", { stepId: id, isPass: pass, Comment: $("#Comment").val(), flowTo: $('#flowTo').val() }, function (data) {
+                    if (data == "ok") {
+                        window.location.href = '/WFInstance/ShowMyChecked';
+                    } else {
+                        alert("审批失败！");
+                    }
+                });
+            }
+
+        </script>
+        <!--header-->
+        <div data-role="header" data-theme="b" data-position="fixed">
+            <h1>移动OA系统</h1>
+            <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+
+        <!--content-->
+        <div id="content" data-role="content">
+            <table data-role="table" id="movie-table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="流程详情">
+                <tbody id="tbbody">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>审批：</td>
+                        <td>
+                            <p id="tp">
+                                审批意见：<input type="text" id="Comment" name="Comment" /><br />
+                                流转到：<select name='flowTo' id="flowTo"></select>
+                            </p>
+                            <p>
+                                <input type="button" id="pass" value="通过" />
+                                <input type="button" id="nopass" value="驳回" />
+                            </p>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <a href="/WFInstance/ShowMyUnCheck" rel="external">返回我的待审批流程</a>
+        </div>
+
+        <!-- footer -->
+        <div data-role="footer" data-position="fixed" data-theme="b">
+            <h4>移动OA系统</h4>
+        </div>
+
+        <!--menu 菜单-->
+        <div data-role="panel" data-position-fixed="true" data-theme="c" id="nav-panel">
+
+            <ul data-role="listview" data-theme="c" class="nav-search">
+                <li data-icon="delete">
+                    <a href="#">
+                        <h1 id="User"></h1>
+                    </a><a href="/UserLogin/Index" rel="external">退出</a>
+                </li>
+                <li><a href="/Home/Index" rel="external">首页</a></li>
+                <li><a href="/WFTemp/StartWF" rel="external">发起流程</a></li>
+                <li><a href="/WFInstance/ShowMyCheck" rel="external">我的审批流程<span class="ui-li-count" id="MyCheck"></span></a></li>
+                <li><a href="/WFInstance/ShowMyChecked" rel="external">已审批流程<span class="ui-li-count" id="MyChecked"></span></a></li>
+                <li><a href="/WFInstance/ShowMyUnCheck" rel="external">待审批流程<span class="ui-li-count" id="MyUnCheck"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+﻿@model HeiMa8.OA.Model.WF_Temp
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+    <script src="~/kindeditor-4.0.5/kindeditor.js"></script>
+    <script src="~/kindeditor-4.0.5/lang/zh_CN.js"></script>
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <style>
+        form
+        {
+            margin: 0;
+        }
+
+        textarea
+        {
+            display: block;
+        }
+    </style>
+
+    <script>
+        var editor;
+        var editor1;
+        KindEditor.ready(function (K) {
+            editor = K.create('textarea[name="Description"]', {
+                resizeType: 1,
+                allowPreviewEmoticons: false,
+                allowImageUpload: false,
+                items: [
+                    'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                    'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                    'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+            });
+        });
+
+        KindEditor.ready(function (K) {
+            editor1 = K.create('textarea[name="TempForm"]', {
+                resizeType: 1,
+                allowPreviewEmoticons: false,
+                allowImageUpload: false,
+                items: [
+                    'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                    'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                    'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+            });
+        });
+        //TempForm
+
+        function afterAdd(data) {
+            if (data == "ok") {
+                window.parent.window.afterAdd();
+            }
+            else
+                alert("失败了");
+        }
+
+        //提交表单
+        function submitForm() {
+            $("form").submit();
+        }
+    </script>
+
+
+</head>
+<body>
+    @using (Ajax.BeginForm(new AjaxOptions() { OnSuccess = "afterAdd" }))
+    {
+        @Html.ValidationSummary(true)
+    
+        <table>
+            <tr>
+                <td class="editor-label">
+                    @Html.LabelFor(model => model.TempName, "流程模板名")
+                </td>
+
+                <td class="editor-field">
+                    @Html.EditorFor(model => model.TempName)
+                    @Html.ValidationMessageFor(model => model.TempName)
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="editor-label">
+                    @Html.LabelFor(model => model.Description, "流程描述")
+                </td>
+
+                <td class="editor-field">
+                    <textarea name="Description" style="width: 700px; height: 80px; visibility: hidden;"></textarea>
+                    @Html.ValidationMessageFor(model => model.Description)
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="editor-label">
+                    @Html.LabelFor(model => model.TempForm, "表达模板")
+                </td>
+
+                <td class="editor-field">
+                    <textarea name="TempForm" style="width: 700px; height: 80px; visibility: hidden;"></textarea>
+                    @Html.ValidationMessageFor(model => model.TempForm)
+                </td>
+            </tr>
+            <tr>
+                <td class="editor-label">
+                    @Html.LabelFor(model => model.ReMark, "备注")
+                </td>
+
+                <td class="editor-field">
+                    @Html.EditorFor(model => model.ReMark)
+                    @Html.ValidationMessageFor(model => model.ReMark)
+                </td>
+            </tr>
+            <tr>
+                <td class="editor-label">
+                    @Html.LabelFor(model => model.ActityType, "活动类型")
+                </td>
+
+                <td class="editor-field">
+                    @Html.EditorFor(model => model.ActityType)
+                    @Html.ValidationMessageFor(model => model.ActityType)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="添加" />
+                </td>
+            </tr>
+        </table>
+    }
+</body>
+</html>
